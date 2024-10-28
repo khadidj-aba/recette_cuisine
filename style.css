@@ -1,25 +1,32 @@
-body {
-    background-image: url(6.jpg);
+@font-face {
+    font-family: 'caviardreams';
+    src: url('caviardreams')  format('truetype');
+}   
+
+body { 
+    background-color: black;
+   /* background-image: url(6.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;*/
+    font-family: caviardreams; 
+    font-size: 20px;
     padding: 0;
     margin: 0;
-    background-color: aliceblue;
+    background-color: black;
     opacity: 8;
-    color: black;
+    color: goldenrod;
 }
 
 header {
-    background-color: darkgray;
-    color: white;
+    background-color: black;
+    color: goldenrod;
     padding: 1rem;
     text-align: center;
 }
 
 nav a {
     margin: 0 15px;
-    color: white;
+    color: goldenrod;
     text-decoration: none;
 }
 
@@ -30,8 +37,8 @@ main {
 
 button {
 
-    background-color: #ff6f61;
-    color: white;
+    background-color: goldenrod;
+    color: black;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -57,14 +64,14 @@ button:hover {
 }
 
 h2 {
-    color: #333;
+    color: goldenrod;
 }
 ol {
-    padding-left: 20px;
-    margin-top: 10px;
+    padding-left: 0;
+    margin-top: 0;
     line-height: 1.6;
     font-size: 16px;
-    list-style-type: decimal;
+    list-style-type: none;
 }
 #recipeContainer {
     display: flex;
@@ -76,3 +83,5 @@ text-align: left;
 list-style:none ;
 
 }
+
+ 

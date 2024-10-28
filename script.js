@@ -2,7 +2,7 @@ document
   .querySelector("#random-recipe-btr")
   .addEventListener("click", function () {
     fetch(
-      "https://api.spoonacular.com/recipes/random?apiKey=b155f3ebc6ac4f8088d89d4961a28bb9"
+      "https://api.spoonacular.com/recipes/random?apiKey=7ead5f6a260446f5a1de8e96a4726411"
     )
       .then((response) => {
         if (!response.ok) {
